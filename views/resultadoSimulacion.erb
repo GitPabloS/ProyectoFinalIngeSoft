@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/styles.css">
+<title>Resultado-Simulador</title>
+<link rel="shortcut icon" href="img/isotipo-nave-espacial.png" />
+</head>
+<body class="centreadoIzquierda">
+    <h2 class="resaltarPalabras">
+    La simulacion comenzo con los siguientes datos:
+    <h2>
+    <h3>Las dimensiones del terreno en X: <%= @dimX %></h3>
+    <h3>Las dimensiones del terreno en Y: <%= @dimY %></h3>
+    <h3>Posicion inicial en X: <%= @posX %></h3>
+    <h3>Posicion inicial en Y: <%= @posY %></h3>
+    <h3>Con un camino a seguir de: <%= @pasos %></h3>
+    <h2 class="resaltarPalabras">
+    La simulacion termino con los siguientes datos: 
+    </h2>
+    <h2>Carro 1</h2>
+    <h3>El carro termino en la posicion: <%= @destinoFinal %></h3>
+    <h3>El carro termino mirando hacia el: <%= @Orient %></h3>
+</body>
+</html>

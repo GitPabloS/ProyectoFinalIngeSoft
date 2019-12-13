@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="primeraPagina">
+        <h1> Hola mundo </h1>
+            <form method="POST" action="/saludar">
+                Nombre: <input type="text" name='nombre'>
+                Edad: <input type="text" name="edad">
+                <input type="submit" value="saludar">
+                <p>Nombre: <input type="text" name='nombre' src="views/mapa.erb"></p>
+            </form> 
+    </div>
+    
+    <style>
+        body{
+            background-color: rgb(10, 85, 98);
+            color: #ffffff;
+        }
+        h1{
+            color: #ffffff;
+        }
+    </style>
+</body>
+</html>

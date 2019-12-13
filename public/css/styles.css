@@ -1,0 +1,27 @@
+body {
+    font-size: 15px;
+    background: url('../img/space.jpg');
+    background-size: 1400px 700px;
+    font-family: 'consolas', sans-serif;
+}
+*{
+    text-align: center;
+    color: aqua;
+}
+h1,p{
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    background: darkred;
+    padding: 3px 18px;
+}
+.centreadoIzquierda{
+    text-align: left;
+    margin: 10px;
+}
+.resaltarPalabras{
+    color: rgb(255, 46, 144);
+}
+.letraPeque{
+    font-size: 18px;
+}

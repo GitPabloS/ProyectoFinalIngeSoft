@@ -1,0 +1,45 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/styles.css">
+<title>Datos-Simulador</title>
+<link rel="shortcut icon" href="img/isotipo-nave-espacial.png" />
+</head>
+<body class"letraPeque">
+    <h3 class="resaltarPalabras">
+    Sea Bienvenido <%= @nombreJugador %>
+    </h3>
+    <h3 class="resaltarPalabras">
+    llene los siguientes datos para poder realizar la simulacion porfavor
+    </h3>
+    <form method="POST" action="/resultadoSimulacion">
+        <h3 class="resaltarPalabras">
+        Dimensiones del terreno:
+        </h3>
+        <p>
+        ingresa Dimensiones en X: <input type="text" name='dimX'>
+        </p>
+        <p>
+        ingresa Dimensiones en Y: <input type="text" name='dimY'>
+        </p>
+        <h3 class="resaltarPalabras">
+        Posicion inicial de la nave: 
+        </h3>
+        <p>
+        posicion en X: <input type="text" name='posX'>
+        </p>
+        <p>
+        posicion en Y: <input type="text" name='posY'>
+        </p>
+        <p>
+        Orientacion de la nave:  Escoja entre [North, South, East, West]<br><input type="text" name='Orient'>
+        </p>
+        <h3 class="resaltarPalabras">
+        Simulacion:
+        </h3>
+        <p>
+        Ingrese camino a seguir:  Escoja entre [I(Izquierda), D(Derecha), F(Adelante)] separadas por "," <br><input type="text" name='pasos'>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>    
+</body>
+</html>
